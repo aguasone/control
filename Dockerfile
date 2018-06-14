@@ -5,6 +5,7 @@ RUN mkdir -p /usr/src/node-red
 
 # User data directory, contains flows, config and nodes.
 RUN mkdir /data
+RUN mkdir /data/camera
 
 WORKDIR /usr/src/node-red
 
